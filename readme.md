@@ -1,8 +1,8 @@
 # split-on-first [![Build Status](https://travis-ci.com/sindresorhus/split-on-first.svg?branch=master)](https://travis-ci.com/sindresorhus/split-on-first)
 
-> Split a string on the first occurance of a given separator
+> Split a string on the first occurrence of a given separator
 
-This is similar to [`String#split()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split), but that one splits on all the occurances, not just the first one.
+This is similar to [`String#split()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split), but that one splits on all the occurrences, not just the first one.
 
 
 ## Install
