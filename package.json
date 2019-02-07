@@ -1,0 +1,34 @@
+{
+	"name": "split-on-first",
+	"version": "0.0.0",
+	"description": "Split a string on the first occurance of a given separator",
+	"license": "MIT",
+	"repository": "sindresorhus/split-on-first",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"split",
+		"string",
+		"first",
+		"occurrence",
+		"separator",
+		"delimiter",
+		"text"
+	],
+	"devDependencies": {
+		"ava": "^1.2.0",
+		"xo": "^0.24.0"
+	}
+}
