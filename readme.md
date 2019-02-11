@@ -26,6 +26,9 @@ splitOnFirst('key:value:value2', ':');
 splitOnFirst('a---b---c', '---');
 //=> ['a', 'b---c']
 
+splitOnFirst('123456', '4', true);
+//=> ['123', '456']
+
 splitOnFirst('a-b-c', '+');
 //=> ['a-b-c']
 ```
