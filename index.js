@@ -20,3 +20,5 @@ module.exports = (string, separator) => {
 		string.slice(separatorIndex + separator.length)
 	];
 };
+
+module.exports.default = module.exports;
