@@ -5,4 +5,4 @@
  */
 declare function splitOnFirst(string: string, separator: string): [string, string?];
 
-export = splitOnFirst;
+export default splitOnFirst;
