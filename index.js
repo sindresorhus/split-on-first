@@ -6,7 +6,7 @@ module.exports = (string, separator) => {
 	}
 
 	if (separator === '') {
-		return [string];
+		return [];
 	}
 
 	const separatorIndex = string.indexOf(separator);
