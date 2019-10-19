@@ -13,21 +13,21 @@ $ npm install split-on-first
 ## Usage
 
 ```js
-const splitOnFirst = require("split-on-first");
+const splitOnFirst = require('split-on-first');
 
-splitOnFirst("a-b-c", "-");
+splitOnFirst('a-b-c', '-');
 //=> ['a', 'b-c']
 
-splitOnFirst("key:value:value2", ":");
+splitOnFirst('key:value:value2', ':');
 //=> ['key', 'value:value2']
 
-splitOnFirst("a---b---c", "---");
+splitOnFirst('a---b---c', '---');
 //=> ['a', 'b---c']
 
-splitOnFirst("a-b-c", "+");
+splitOnFirst('a-b-c', '+');
 //=> []
 
-splitOnFirst("abc", "");
+splitOnFirst('abc', '');
 //=> []
 ```
 
@@ -49,7 +49,7 @@ The separator to split on.
 
 ## Related
 
--   [split-at](https://github.com/sindresorhus/split-at) - Split a string at one or more indices
+- [split-at](https://github.com/sindresorhus/split-at) - Split a string at one or more indices
 
 ## License
 
