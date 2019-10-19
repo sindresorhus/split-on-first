@@ -12,7 +12,7 @@ module.exports = (string, separator) => {
 	const separatorIndex = string.indexOf(separator);
 
 	if (separatorIndex === -1) {
-		return [string];
+		return [];
 	}
 
 	return [
