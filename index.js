@@ -6,13 +6,13 @@ module.exports = (string, separator) => {
 	}
 
 	if (separator === '') {
-		return [string];
+		return [];
 	}
 
 	const separatorIndex = string.indexOf(separator);
 
 	if (separatorIndex === -1) {
-		return [string];
+		return [];
 	}
 
 	return [

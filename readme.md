@@ -4,13 +4,11 @@
 
 This is similar to [`String#split()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split), but that one splits on all the occurrences, not just the first one.
 
-
 ## Install
 
 ```
 $ npm install split-on-first
 ```
-
 
 ## Usage
 
@@ -27,9 +25,11 @@ splitOnFirst('a---b---c', '---');
 //=> ['a', 'b---c']
 
 splitOnFirst('a-b-c', '+');
-//=> ['a-b-c']
-```
+//=> []
 
+splitOnFirst('abc', '');
+//=> []
+```
 
 ## API
 
@@ -47,11 +47,9 @@ Type: `string`
 
 The separator to split on.
 
-
 ## Related
 
 - [split-at](https://github.com/sindresorhus/split-at) - Split a string at one or more indices
-
 
 ## License
 
