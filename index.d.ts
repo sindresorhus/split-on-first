@@ -18,7 +18,10 @@ splitOnFirst('a---b---c', '---');
 //=> ['a', 'b---c']
 
 splitOnFirst('a-b-c', '+');
-//=> ['a-b-c']
+//=> []
+
+splitOnFirst('abc', '');
+//=> []
 ```
 */
 declare function splitOnFirst(

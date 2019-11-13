@@ -50,7 +50,3 @@ The separator to split on.
 ## Related
 
 - [split-at](https://github.com/sindresorhus/split-at) - Split a string at one or more indices
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
