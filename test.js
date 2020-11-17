@@ -7,6 +7,7 @@ test('main', t => {
 	t.deepEqual(splitOnFirst('a---b---c', '---'), ['a', 'b---c']);
 	t.deepEqual(splitOnFirst('a-b-c', '+'), []);
 	t.deepEqual(splitOnFirst('abc', ''), []);
+	t.deepEqual(splitOnFirst('', ''), []);
 
 	t.throws(() => {
 		splitOnFirst('abc', null);

@@ -5,7 +5,7 @@ module.exports = (string, separator) => {
 		throw new TypeError('Expected the arguments to be of type `string`');
 	}
 
-	if (separator === '') {
+	if (string === '' || separator === '') {
 		return [];
 	}
 
