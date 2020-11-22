@@ -23,6 +23,7 @@
 		"split",
 		"string",
 		"first",
+		"once",
 		"occurrence",
 		"separator",
 		"delimiter",
