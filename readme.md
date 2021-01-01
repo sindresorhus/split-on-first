@@ -1,4 +1,4 @@
-# split-on-first [![Build Status](https://travis-ci.com/sindresorhus/split-on-first.svg?branch=master)](https://travis-ci.com/sindresorhus/split-on-first)
+# split-on-first
 
 > Split a string on the first occurrence of a given separator
 
