@@ -6,7 +6,7 @@ Split a string on the first occurrence of a given separator.
 
 @example
 ```
-import splitOnFirst = require('split-on-first');
+import splitOnFirst from 'split-on-first';
 
 splitOnFirst('a-b-c', '-');
 //=> ['a', 'b-c']
@@ -24,9 +24,7 @@ splitOnFirst('abc', '');
 //=> []
 ```
 */
-declare function splitOnFirst(
+export default function splitOnFirst(
 	string: string,
 	separator: string
 ): [string, string?];
-
-export = splitOnFirst;

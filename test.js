@@ -1,5 +1,5 @@
 import test from 'ava';
-import splitOnFirst from '.';
+import splitOnFirst from './index.js';
 
 test('main', t => {
 	t.deepEqual(splitOnFirst('a-b-c', '-'), ['a', 'b-c']);

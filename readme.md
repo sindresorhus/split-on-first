@@ -13,7 +13,7 @@ $ npm install split-on-first
 ## Usage
 
 ```js
-const splitOnFirst = require('split-on-first');
+import splitOnFirst from 'split-on-first';
 
 splitOnFirst('a-b-c', '-');
 //=> ['a', 'b-c']
