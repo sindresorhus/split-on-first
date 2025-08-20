@@ -1,6 +1,6 @@
 {
 	"name": "split-on-first",
-	"version": "3.0.0",
+	"version": "4.0.0",
 	"description": "Split a string on the first occurance of a given separator",
 	"license": "MIT",
 	"repository": "sindresorhus/split-on-first",
