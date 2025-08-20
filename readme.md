@@ -29,6 +29,9 @@ splitOnFirst('a-b-c', '+');
 
 splitOnFirst('abc', '');
 //=> []
+
+splitOnFirst('a,b.c', /[.,]/);
+//=> ['a', 'b.c']
 ```
 
 ## API
@@ -43,9 +46,9 @@ The string to split.
 
 #### separator
 
-Type: `string`
+Type: `string | RegExp`
 
-The separator to split on.
+The separator to split on. When a `RegExp` is provided, it splits on the first match.
 
 ## Related
 
