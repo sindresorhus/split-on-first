@@ -6,8 +6,8 @@ This is similar to [`String#split()`](https://developer.mozilla.org/en-US/docs/W
 
 ## Install
 
-```
-$ npm install split-on-first
+```sh
+npm install split-on-first
 ```
 
 ## Usage

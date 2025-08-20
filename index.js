@@ -15,6 +15,6 @@ export default function splitOnFirst(string, separator) {
 
 	return [
 		string.slice(0, separatorIndex),
-		string.slice(separatorIndex + separator.length)
+		string.slice(separatorIndex + separator.length),
 	];
 }

@@ -13,6 +13,6 @@ test('main', t => {
 		splitOnFirst('abc', null);
 	}, {
 		instanceOf: TypeError,
-		message: 'Expected the arguments to be of type `string`'
+		message: 'Expected the arguments to be of type `string`',
 	});
 });
